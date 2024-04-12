@@ -1,0 +1,52 @@
+.site {
+  width: 40vw;
+  height: 25vh;
+  background-color: #00cc87;
+  color: white;
+  margin: 1vw;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.car{
+  margin-top: 20px;
+  width: 50%;
+  animation: slideIn 1.5s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(90vh);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .site {
+    width: 9vw;
+    height: 30vh;
+    margin: 1vh 4vh;
+  }
+  .car{
+    width: 5vw;
+  }
+}

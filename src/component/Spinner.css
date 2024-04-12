@@ -1,0 +1,11 @@
+.spinner-grow{
+    color: #955fa2;
+    width: 4rem; 
+    height: 4rem;
+}
+.spin{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
