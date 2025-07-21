@@ -1,98 +1,107 @@
-Parking Web App
-A feature-complete parking management web application built using React and Vite, offering real-time parking availability, reservation, and management capabilities.
+# 🚗 Parking Web App
 
-🚗 Features
-Interactive map/dashboard showcasing parking spots and their statuses.
+A feature-complete parking management web application built using **React** and **Vite**, offering real-time parking availability, reservation, and management capabilities.
 
-Reservation system: Users can book and release spaces.
+---
 
-Admin panel: Add, update, or delete parking spots.
+## ✨ Features
 
-Realtime updates with WebSocket or polling.
+- **Interactive Dashboard:** Visual map showing parking spots and their statuses.
+- **Reservation System:** Users can book and release parking spaces.
+- **Admin Panel:** Add, update, or delete parking spots with a dedicated interface.
+- **Realtime Updates:** Parking status is updated in real time (via WebSocket or polling).
+- **Responsive Design:** Optimized for both mobile and desktop devices.
 
-Responsive design for mobile and desktop.
+---
 
-🔧 Tech Stack
-Frontend: React + Vite
+## 🛠️ Tech Stack
 
-Styling: CSS Modules (or your chosen CSS approach)
+- **Frontend:** React + Vite
+- **Styling:** CSS Modules (or your chosen CSS approach)
+- **State Management:** React Hooks / Context API
+- **Backend (optional):** REST API or Firebase for data persistence
+- **Realtime Data:** WebSocket or polling
 
-State management: React Hooks / Context API
+---
 
-Backend (optional): REST API or Firebase for persistence
+## 🚀 Setup & Installation
 
-Realtime data: WebSocket / polling
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Pratik2401/Parking_web-main-completed-.git
+   cd Parking_web-main-completed-
+   ```
 
-🛠️ Setup & Installation
-Clone the repo
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/Pratik2401/Parking_web-main-completed-.git
-cd Parking_web-main-completed-
-Install dependencies
+3. **Run in development mode**
+   ```bash
+   npm run dev
+   ```
 
-bash
-Copy
-Edit
-npm install
-Run in development mode
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-bash
-Copy
-Edit
-npm run dev
-Build for production
+5. **Preview production build**
+   ```bash
+   npm run serve
+   ```
 
-bash
-Copy
-Edit
-npm run build
-Preview production build
+---
 
-bash
-Copy
-Edit
-npm run serve
-🧭 Project Structure
-php
-Copy
-Edit
+## 🧭 Project Structure
+
+```
 ├── public/           # Static assets
 ├── src/
-│   ├── components/   # Reusable components
-│   ├── pages/        # Page views (Dashboard, Reservation, Admin)
+│   ├── components/   # Reusable components (Dashboard, Reservation, Admin, etc.)
+│   ├── pages/        # Page views
 │   ├── App.jsx       # Main app component
 │   ├── main.jsx      # React entry point
 │   └── styles/       # CSS or styling files
 ├── dist/             # Production build output
 ├── package.json      # Project metadata and scripts
 └── vite.config.js    # Vite build configuration
-🧩 Usage & Examples
-View available spots on the dashboard.
+```
 
-Click a spot to reserve it.
+---
 
-Admin mode allows creating/editing/removing parking spots.
+## 🧩 Usage & Examples
 
-Parking status updates are reflected in real time.
+- **Dashboard:** View available spots and their statuses.
+- **Reservation:** Click a spot to reserve or release it.
+- **Admin:** Create, edit, or remove parking spots in admin mode.
+- **Realtime:** Parking status updates are reflected instantly.
 
-⚙️ Configuration
-Place environment variables in a .env file:
+---
 
-Key	Description
-VITE_API_URL	Backend API endpoint for parking data
-VITE_WS_URL (optional)	WebSocket URL for realtime updates
+## ⚙️ Configuration
 
-✅ Contribution
-Fork the repo
+Place environment variables in a `.env` file:
 
-Create a branch: feature/<your-feature-name>
+| Key           | Description                                  |
+| ------------- | -------------------------------------------- |
+| VITE_API_URL  | Backend API endpoint for parking data        |
+| VITE_WS_URL   | (optional) WebSocket URL for realtime updates|
 
-Commit changes & push
+---
 
-Open a Pull Request — feedback welcomed!
+## ✅ Contribution
 
-📝 License
+1. Fork the repo
+2. Create a branch: `feature/<your-feature-name>`
+3. Commit your changes & push
+4. Open a Pull Request — feedback welcomed!
+
+---
+
+## 📝 License
+
 MIT © 2024 Pratik2401
+
+---
